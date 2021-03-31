@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <u><p>Detail Form</p></u>
+        <div class="i">
+          <label for="name">Name : </label>
+          <input type="text" id="name" placeholder="kapil" required/>
+        </div>
+        <div class="i">
+          <label for="contact">Mob. No. : </label>
+          <input type="number" id="contact" placeholder="9999999999" required/>
+        </div>
+        <div class="i">
+          <label for="email">Email ID : </label>
+          <input type="email" id="email" placeholder="asdhgs@gmail.com" required/>
+        </div>
+        <div>
+          <button id="submit">Submit</button>
+        </div>
+        <div>
+        <input type="search" id="myInput" onsearch="myFunction()" placeholder="Enter the name here">
+        <button style="background-color:#ffcc99" onclick="myFunction()">Search</button>
+          <p id="demo"></p>
+          </div>
+      </div>
+      <hr id="a">
+      <div id="detail-container"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
